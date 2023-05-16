@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, non_constant_identifier_names, unused_element, dead_code, curly_braces_in_flow_control_structures
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, non_constant_identifier_names, unused_element, dead_code, curly_braces_in_flow_control_structures, must_be_immutable
 
 import 'package:flutter/material.dart';
 import 'package:round_1/berth/seat.dart';
@@ -34,9 +34,9 @@ Row Row1(BuildContext context) {
               ),
             ),
           ),
-          Wrap(
-            spacing: 1,
-            children: [
+          ListView(
+            scrollDirection: Axis.horizontal,
+            children: <Widget>[
               Seat(1),
               Seat(1),
               Seat(1),
