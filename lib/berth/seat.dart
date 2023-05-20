@@ -1,4 +1,6 @@
-import 'dart:js';
+
+// ignore_for_file: must_be_immutable, use_key_in_widget_constructors
+
 import 'package:flutter/material.dart';
 
 class Seat extends StatelessWidget {

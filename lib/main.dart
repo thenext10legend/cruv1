@@ -2,9 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:round_1/berth/rows.dart';
-import 'package:round_1/berth/seat.dart';
+
 import 'package:round_1/search_bar/search_field.dart';
-import 'package:round_1/search_bar/search_button.dart';
 
 void main() {
   runApp(const MyApp());
